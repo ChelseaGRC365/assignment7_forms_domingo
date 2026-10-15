@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stay in Touch!</title>
+	<link href="https://fonts.googleapis.com/css2?=family=Cherry+Bomb+One+family+Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<style>
+	@font-face {
+		font-family: CherryBombOne;
+		src: url("CherryBombOne-Regular.ttf")
+	} body {
+		background: whitesmoke;
+	} #container {
+		width: 800px;
+		height: 800px;
+		background: white;
+		border: 1px solid dimgray;
+		margin: 24px auto;
+	} #page {
+		width: 928px;
+		height: 1224px;
+		background: whitesmoke;
+		margin: 0 auto;
+		padding: 48px;
+		border: 1px solid darkgray;
+		box-shadow: 2px 3px 6px darkgray;
+		z-index: 0;
+	} h1 {
+		font: 48px/1.0em 'CherryBombOne', regular;
+		text-align: center;
+		text-color: lightpink;
+		text-shadow: 2px 3px 6px lightpink;
+		text-weight: normal;
+	} form {
+		width: 600px;
+		min-height: 600px;
+		padding: 24px;
+		background: lightblue;
+		margin: 36px auto;
+		border: 1px solid lightpink;
+		box-shadow: 2px 3px 6px lightpink;
+		border-radius: 18px;
+		font: 14pt/1.2em 'Quicksand', sans-serif;
+	} fieldset {
+		margin-top: 18px;
+	} #personal input, #submit {
+		width: 100%;
+		height: 24px;
+		margin-bottom: 12px;
+	} input[type="text"] {
+		width: 98%;
+		font: 12pt/1.4em 'Quicksand', sans-serif;
+	} select {
+		width: 50%;
+		font: 12pt/1.4em 'Quicksand', sans-serif;
+		padding: 2px 4px;
+	} textarea {
+		width: 98%;
+	} input[type="submit"] {
+		width: 100px;
+		height: 40px;
+		bacground: pink;
+		display: block;
+		margin: 0 auto;
+	} #banner-img {
+		width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+<div id="page">
+	<header>
+		<a href="donut_banner.jpg" target="_top"><img src="donut_banner.jpg" width="886" height="199" id="banner-img"></a>
+	</header>
+	
+	<form action="#" method="post">
+	<h1>Stay in Touch</h1>
+		<input type="text" /><br/>
+		<label>First Name</label><br/>
+		<input type="text" /><br/>
+		<label>Last Name</label><br/>
+		<input type="text" /><br/>
+		<label>Email</label><br/><br/>
+		
+		<fieldset>
+		<legend>Can we send you email updates?</legend>
+		<input type="radio" name="os" /><label>Yes</label><br/>
+		<input type="radio" name="os" /><label>No</label><br/>
+		<input type="radio" name="os" /><label>Maybe</label><br/>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Favorite doughnut flavor?</legend>
+		<input type="checkbox" /><label>Original Glazed</label><br/>
+		<input type="checkbox" /><label>Cake</label><br/>
+		<input type="checkbox" /><label>Chocolate</label><br/>
+		<input type="checkbox" /><label>Flavored Icing</label><br/>
+		<input type="checkbox" /><label>Red Vlevet</label><br/>
+		<input type="checkbox" /><label>Other</label><br/>
+		</fieldset><br/>
+		
+		<label>When are you able to meetup for meetings?</label>
+		<select>
+			<option>ASAP</option>
+			<option>This Week</option>
+			<option>This Month</option>
+			<option>This Year</option>
+			<option>Unsure</option>
+		</select>
+		<br/><br/>
+		
+		<label>Comments</label><br/>
+		<textarea>
+		</textarea><br/><br/>
+		
+		<input type="submit" value="Submit" />
+	</form>
+</div>
+</body>
+</html>
